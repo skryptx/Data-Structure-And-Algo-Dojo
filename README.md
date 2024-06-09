@@ -1,5 +1,5 @@
-Topic Wise collections of Data Structure and Algorithms question along with their solution. The name of the actual problem with match with the solution name. Please find questions seggregated based upon platforms.
+Topicwise collections of Data Structure and Algorithm questions along with their solution. The name of the actual problem on the respective platform matches the solution label. Please find questions segregated based on platforms.
 
-PlatForms:
+Platforms:
 
 ## [LeetCode](LeetCode/README.md)
