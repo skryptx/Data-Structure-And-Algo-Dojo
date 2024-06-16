@@ -1,9 +1,11 @@
+package CodeForces.PracticeProblems;
+
 import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
         Scanner inputScanner = new Scanner(System.in);
-        Integer weight;
+        int weight;
         
         weight = Integer.parseInt(inputScanner.nextLine());  
         inputScanner.close(); 
