@@ -6,7 +6,8 @@ public class PlayGround {
 //
 //        int input = Integer.parseInt(scanner.nextLine());
 //        scanner.close();
+        Number[] numbers = new Integer[] {1,2,3};
+        System.out.println(Float.NaN);
 
-        System.out.println(~-5); // 1000 & 0100
     }
 }
