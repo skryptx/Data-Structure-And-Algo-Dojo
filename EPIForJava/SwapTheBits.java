@@ -7,7 +7,7 @@ public class SwapTheBits {
         long a = (num >>> index1) & 1;
         long b = (num >>> index2) & 1;
         if(a != b) {
-            return (1 << index1 | 1 << index2) ^ num;
+            return (1L << index1 | 1L << index2) ^ num;
         }
 
         return num;
