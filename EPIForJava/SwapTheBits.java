@@ -4,15 +4,13 @@ import java.util.Scanner;
 
 public class SwapTheBits {
     public static long swapTheBits(long num, int index1,  int index2) {
-        long mask = 0;
-        for(int i=1; i<=64; i++) {
-            if(i == index1 || i == index2) {
-                mask = (mask >>> 1) ^ 1;
-            } else {
-                mask <<= 1;
-            }
+        long a = (num >>> index1) & 1;
+        long b = (num >>> index2) & 1;
+        if(a != b) {
+            return (1 << index1 | 1 << index2) ^ num;
         }
-        return mask ^ num;
+
+        return num;
     }
 
     public static void main(String[] args) {
