@@ -1,4 +1,4 @@
-package EPIForJava;
+package EPIForJava.ChapterFive;
 
 import java.util.Scanner;
 

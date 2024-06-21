@@ -2,7 +2,7 @@
 // 1: if bit 1 is occurring odd number of times
 // 0: if bit 1 is occuring even number of time or not at all
 
-package EPIForJava;
+package EPIForJava.ChapterFive;
 
 public class ParityOfANumber {
     public static long getParityOfNumber(long num) {
