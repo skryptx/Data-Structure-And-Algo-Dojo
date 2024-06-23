@@ -7,3 +7,4 @@
 ### Chapter 6: Arrays
 
 - [Re-arrange array(Even then odd without using additional storage)](ChapterSix/EvenOddArray.java)
+- [Increment an arbitrary precision integer](ChapterSix/IncrementArrayByN.java)
