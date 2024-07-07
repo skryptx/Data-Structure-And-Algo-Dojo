@@ -17,7 +17,7 @@ public class MultipleTwoPrecisionNumbersInArrayForm {
     public static int[] multiply(int[] num1, int[] num2) {
         int[] result = new int[num1.length + num2.length + 1];
         int tempRemainder = 0;
-        int tempSum = 0;
+        int tempSum;
         int calcPos = 0;
         for (int i = num2.length - 1; i >= 0; i--) {
             int threshold = result.length - calcPos - 1;
